@@ -3,6 +3,7 @@
 This repository contains the hardware design, simulation waveforms, hand calculations, and hardware verification for a custom General-Purpose Processor Arithmetic Logic Unit (ALU) coordinated by a Mealy-type Finite State Machine (FSM). The complete digital system was implemented and verified on an Altera DE2 FPGA board using Quartus II.
 
 🛠️ System Architecture & Components
+
 The datapath integrates multiple combinational and sequential digital logic components:   
 . Latches (1 & 2): Positive-edge triggered 8-bit synchronous registers used to capture and hold input datasets A and B.  
 . Finite State Machine (FSM): A Mealy-type FSM that drives the sequence of operations based on clock cycles and manual toggle switch inputs, outputting a 4-bit state code and a 4-bit student ID.   
